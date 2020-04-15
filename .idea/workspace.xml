@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8b779de-6579-4b60-ac3f-656c7a918fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/Artist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/Editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/Employee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/GraphicIllustrator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/Manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/TechnicalWriter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/Artist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/Editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/Employee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/GraphicIllustrator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/Manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/class-use/TechnicalWriter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/EmployeesTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/class-use/EmployeesTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aZuSd2pOkawA7OP7c2kOd9iGIU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8b779de-6579-4b60-ac3f-656c7a918fec" name="Default Changelist" comment="" />
+      <created>1586955437856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586955437856</updated>
+      <workItem from="1586955442463" duration="253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="180" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586955686587">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="516" y="180" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1536.834@0.30.1536.834" timestamp="1586955686587" />
+    <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1586955631038">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="202" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1586955631038" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1586955667706">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1586955667706" />
+  </component>
+</project>

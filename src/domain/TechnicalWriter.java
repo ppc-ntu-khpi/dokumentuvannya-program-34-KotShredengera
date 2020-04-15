@@ -2,7 +2,7 @@ package domain;
 
 /**
  * Клас, який представляє собою Технічного письменника; Наслідує клас
- * {@link Artist}}
+ * {@link Artist}
  * 
  * @author Kot_Shredingera
  *
