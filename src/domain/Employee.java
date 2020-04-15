@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * Клас, який представляє собою співробітника
+ * Class that represent Employee
  * 
  * @author Kot_Shredingera
  *
@@ -9,7 +9,7 @@ package domain;
 public class Employee {
 
 	/**
-	 * Надає значення у вигляді рядка.
+	 * Gives value as a string.
 	 */
 	@Override
 	public String toString() {
@@ -26,12 +26,12 @@ public class Employee {
 	// private static int employeesCount = 0;
 
 	/**
-	 * Встановлює значення полів: ім'я, назва посади, рівень, відділ
+	 * Sets field values: name, jobTitle, level, dept
 	 * 
-	 * @param name     - ім`я співробітника
-	 * @param jobTitle - назва посади
-	 * @param level    - рівень доступу
-	 * @param dept     - відділ
+	 * @param name     - name of employee
+	 * @param jobTitle - title of the post
+	 * @param level    - access level
+	 * @param dept     - dept
 	 */
 	public Employee(String name, String jobTitle, int level, String dept) {
 		this();
@@ -50,7 +50,7 @@ public class Employee {
 	}
 
 	/**
-	 * Метод, який генерує ID співробітника
+	 * Method that generates the employee ID
 	 */
 
 	public Employee() {
@@ -61,36 +61,36 @@ public class Employee {
 	}
 
 	/**
-	 * Встановлює значення поля jobTitle
+	 * Sets the value of the jobTitle field
 	 * 
-	 * @param job - назва посады
+	 * @param job - title of the post
 	 */
 	public void setJobTitle(String job) {
 		jobTitle = job;
 	}
 
 	/**
-	 * Отримання значення поля jobTitle
+	 * Getting the value of the field jobTitle
 	 * 
-	 * @return значення jobTitle (назва посади)
+	 * @return values jobTitle(title of the post)
 	 */
 	public String getJobTitle() {
 		return jobTitle;
 	}
 
 	/**
-	 * Отримання значення поля name
+	 * Getting the value of the field name
 	 * 
-	 * @return значення name (ім'я співробітника)
+	 * @return values name(name of employee)
 	 */
 	public String getName() {
 		return name;
 	}
 
 	/**
-	 * Встановлення значення поля level
+	 * Sets the value of the level field
 	 * 
-	 * @param level - рівня доступу
+	 * @param level - access level
 	 */
 	public void setLevel(int level) {
 		switch (level) {
@@ -105,36 +105,36 @@ public class Employee {
 	}
 
 	/**
-	 * Отримання значення поля level
+	 * Getting the value of the level
 	 * 
-	 * @return значення level (рівня доступу)
+	 * @return values level(access level)
 	 */
 	public int getLevel() {
 		return level;
 	}
 
 	/**
-	 * Отримання значення поля dept
+	 * Getting the value of the dept
 	 * 
-	 * @return значення dept (відділення)
+	 * @return values dept
 	 */
 	public String getDept() {
 		return dept;
 	}
 
 	/**
-	 * Встановлення значення поля dept
+	 * Sets the value of the dept field
 	 * 
-	 * @param dept - назва відділення
+	 * @param dept
 	 */
 	public void setDept(String dept) {
 		this.dept = dept;
 	}
 
 	/**
-	 * Встановлення значення поля name
+	 * Sets the value of the name field
 	 * 
-	 * @param name - ім'я співробітника
+	 * @param name - name of employee
 	 */
 	public void setName(String name) {
 //        boolean correctName = true;

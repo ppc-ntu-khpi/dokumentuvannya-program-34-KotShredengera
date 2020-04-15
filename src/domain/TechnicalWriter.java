@@ -1,8 +1,7 @@
 package domain;
 
 /**
- * Клас, який представляє собою Технічного письменника; Наслідує клас
- * {@link Artist}
+ * Class that represent TechnicalWriter; Extends {@link Artist}
  * 
  * @author Kot_Shredingera
  *

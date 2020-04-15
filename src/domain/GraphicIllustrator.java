@@ -1,8 +1,7 @@
 package domain;
 
 /**
- * Клас, який представляє собою Графічного ілюстратора; Наслідує клас
- * {@link Artist}
+ * Class that represent GraphicIllustrator; Extends {@link Artist}
  * 
  * @author Kot_Shredingera
  *

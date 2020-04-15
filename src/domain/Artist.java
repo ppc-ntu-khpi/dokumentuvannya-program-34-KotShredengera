@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * Клас, який представляє собою актора Наслідує клас {@link Employee}
+ * Class that represent Artist; Extends {@link Employee}
  * 
  * @author Kot_Shredingera
  *
@@ -9,13 +9,13 @@ package domain;
 public class Artist extends Employee {
 
 	/**
-	 * Встановлення значення полів: skills, name, jobTitle, level, dept
+	 * Set field values: skills, name, jobTitle, level, dept
 	 * 
-	 * @param skiils   - список умінь
-	 * @param name     - ім'я
-	 * @param jobTitle - назва посади
-	 * @param level    - рівень доступу
-	 * @param dept     - - назва відділення
+	 * @param skiils   - list of skills
+	 * @param name     - name of employee
+	 * @param jobTitle - title of the post
+	 * @param level    - access level
+	 * @param dept     - dept
 	 */
 	public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {
 		super(name, jobTitle, level, dept);
@@ -23,9 +23,9 @@ public class Artist extends Employee {
 	}
 
 	/**
-	 * Встановлення зчачень поля skills
+	 * Sets the value of the skills field
 	 * 
-	 * @param skiils - список умінь
+	 * @param skiils - list of skills
 	 */
 	public Artist(String[] skiils) {
 		super();
@@ -33,7 +33,7 @@ public class Artist extends Employee {
 	}
 
 	/**
-	 * Метод, який оголошує кількість елементів масиву умінь за замовчуванням
+	 * Method that declares the number of elements of the default skills set
 	 */
 	public Artist() {
 		super();
@@ -41,7 +41,7 @@ public class Artist extends Employee {
 	}
 
 	/**
-	 * Надання значень у вигляді рядка
+	 * Gives value as a string.
 	 */
 	@Override
 	public String toString() {
@@ -51,9 +51,9 @@ public class Artist extends Employee {
 	private String[] skiils;
 
 	/**
-	 * Отримання значень поля skills
+	 * Getting the value of the field skills
 	 * 
-	 * @return рядкове значення уміння
+	 * @return the string value of the skill
 	 */
 	public String getSkills() {
 		String s = "";
@@ -65,18 +65,18 @@ public class Artist extends Employee {
 	}
 
 	/**
-	 * Встановлення значень поля skills
+	 * Sets the value of the skills field
 	 * 
-	 * @param skills(список умінь)
+	 * @param skills(list of skills)
 	 */
 	public void setSkills(String[] skills) {
 		this.skiils = skills;
 	}
 
 	/**
-	 * Отримання значень поля skills
+	 * Getting the value of the field skills
 	 * 
-	 * @return список умінь
+	 * @return list of skills
 	 */
 	public String[] getSkillsLSist() {
 		return skiils;

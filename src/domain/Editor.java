@@ -1,22 +1,21 @@
 package domain;
 
 /**
- * Клас, який представляє собою редактора Наслідує клас {@link Artist}
+ * Class that represent Editor; Extends {@link Artist}
  * 
  * @author Kot_Shredingera
  *
  */
 public class Editor extends Artist {
 	/**
-	 * Встановлює значення полів: electronicEditing, skills, name, jobTitle, level,
-	 * dept
+	 * Sets field values: electronicEditing, skills, name, jobTitle, level, dept
 	 * 
-	 * @param electronicEditing - наявність електроного редактування
-	 * @param skiils            - список умінь
-	 * @param name              - ім'я
-	 * @param jobTitle          - назва посади
-	 * @param level             - рівень доступу
-	 * @param dept              - - назва відділення
+	 * @param electronicEditing - availability of electronic editing
+	 * @param skiils            - list of skills
+	 * @param name              - name of employee
+	 * @param jobTitle          - title of the post
+	 * @param level             - access level
+	 * @param dept              - dept
 	 */
 	public Editor(boolean electronicEditing, String[] skiils, String name, String jobTitle, int level, String dept) {
 		super(skiils, name, jobTitle, level, dept);
@@ -24,10 +23,10 @@ public class Editor extends Artist {
 	}
 
 	/**
-	 * Встановлює значення полів: electronicEditing, skills
+	 * Sets field values: electronicEditing, skills
 	 * 
-	 * @param electronicEditing - наявність електроного редактування
-	 * @param skiils            - уміння
+	 * @param electronicEditing - availability of electronic editing
+	 * @param skiils            - list of skills
 	 */
 	public Editor(boolean electronicEditing, String[] skiils) {
 		super(skiils);
@@ -35,9 +34,9 @@ public class Editor extends Artist {
 	}
 
 	/**
-	 * Встановлює значення полю electonicEditing
+	 * Sets the value of the electronicEditing field
 	 * 
-	 * @param electronicEditing - наявність електроного редактування
+	 * @param electronicEditing - availability of electronic editing
 	 */
 	public Editor(boolean electronicEditing) {
 		super();
@@ -45,7 +44,7 @@ public class Editor extends Artist {
 	}
 
 	/**
-	 * Встановлює значення полю electonicEditing за замовчуванням true
+	 * Sets the default electonicEditing field to true
 	 */
 	public Editor() {
 		super();
@@ -53,7 +52,7 @@ public class Editor extends Artist {
 	}
 
 	/**
-	 * Надання значень у вигляді рядка
+	 * Gives value as a string.
 	 */
 	@Override
 	public String toString() {
@@ -69,18 +68,18 @@ public class Editor extends Artist {
 	private boolean electronicEditing;
 
 	/**
-	 * Отримання значень поля electronicEditing
+	 * Getting the value of the field electronicEditing
 	 * 
-	 * @return electronicEditing(наявність електроного редактування)
+	 * @return electronicEditing
 	 */
 	public boolean getPreferences() {
 		return electronicEditing;
 	}
 
 	/**
-	 * Встановлення значень поля electonicEditing
+	 * Sets the value of the electronicEditing field
 	 * 
-	 * @param electronic - наявність електроного редактування
+	 * @param electronic - availability of electronic editing
 	 */
 	public void setPreferences(boolean electronic) {
 		this.electronicEditing = electronic;

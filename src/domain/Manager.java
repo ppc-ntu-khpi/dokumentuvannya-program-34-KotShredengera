@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * Клас, який представляє собою Менеджера; Наслідує клас {@link Employee}
+ * Class that represent; Extends {@link Employee}
  * 
  * @author Kot_Shredingera
  *
@@ -9,13 +9,13 @@ package domain;
 public class Manager extends Employee {
 
 	/**
-	 * Встановлення значення полів employees, name, jobTitle, level, dept
+	 * Sets field values: employees, name, jobTitle, level, dept
 	 * 
-	 * @param employees - масив даних про співробітника
-	 * @param name      - ім'я
-	 * @param jobTitle  - назва посади
-	 * @param level     - рівень доступу
-	 * @param dept      - відділ
+	 * @param employees - list of employee data
+	 * @param name      - name of employee
+	 * @param jobTitle  - title of the post
+	 * @param level     - access level
+	 * @param dept      - dept
 	 */
 	public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
 		super(name, jobTitle, level, dept);
@@ -23,7 +23,7 @@ public class Manager extends Employee {
 	}
 
 	/**
-	 * Надання значень у вигляді рядка
+	 * Gives value as a string.
 	 */
 	@Override
 	public String toString() {
@@ -31,9 +31,9 @@ public class Manager extends Employee {
 	}
 
 	/**
-	 * Встановлення значень полю employees
+	 * Sets the value of the employee field
 	 * 
-	 * @param employees - масив данних про співробітників
+	 * @param employees - list of employee data
 	 */
 	public Manager(Employee[] employees) {
 		super();
@@ -41,8 +41,8 @@ public class Manager extends Employee {
 	}
 
 	/**
-	 * Метод, який оголошує кількість елементів масиву даних про співробітників за
-	 * замовчуванням
+	 * A method that declares the number of elements of an array of default employee
+	 * data
 	 */
 	public Manager() {
 		super();
@@ -52,9 +52,9 @@ public class Manager extends Employee {
 	private Employee[] employees;
 
 	/**
-	 * Отримання масиву імен співробітників
+	 * Getting the value of the field employees
 	 * 
-	 * @return ім'я співробітника
+	 * @return name of employee
 	 */
 	public String getEmployees() {
 		String s = "";
@@ -66,18 +66,18 @@ public class Manager extends Employee {
 	}
 
 	/**
-	 * Встановлення значення поля employees
+	 * Sets the value of the employee field
 	 * 
-	 * @param employees - масив даних про співробітника
+	 * @param employees - list of employee data
 	 */
 	public void setEmployees(Employee[] employees) {
 		this.employees = employees;
 	}
 
 	/**
-	 * Отримання масиву даних про співробітників
+	 * Getting the value of the field employees
 	 * 
-	 * @return значення employees (дані співробітників)
+	 * @return values employees
 	 */
 	public Employee[] getEmployeesList() {
 		return employees;
